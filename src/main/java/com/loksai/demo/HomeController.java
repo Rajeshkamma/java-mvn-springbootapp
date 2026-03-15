@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HomeController {
 
-    @GetMapping("/")
-    public String home() {
-        return "LoksaiETA Application is running!";
+    @GetMapping("/")  // root mapping
+    public String index() {
+        return "App is running!";
     }
 
 }
